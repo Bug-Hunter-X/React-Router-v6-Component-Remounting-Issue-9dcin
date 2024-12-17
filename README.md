@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 where components unexpectedly remount when navigating away and then back to a route.  The problem is particularly noticeable when dealing with components that manage internal state. The solution shows how to use the `useLocation` hook to prevent unnecessary remounts and preserve state.
